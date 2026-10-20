@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4d6b7"/>
+      <stop offset="0.55" stop-color="#e3ab86"/>
+      <stop offset="1" stop-color="#bf775f"/>
+    </linearGradient>
+    <linearGradient id="arch1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7e3f3a"/>
+      <stop offset="1" stop-color="#4a2229"/>
+    </linearGradient>
+    <linearGradient id="arch2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9946f"/>
+      <stop offset="1" stop-color="#a85c4c"/>
+    </linearGradient>
+    <linearGradient id="arch3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3d6b4"/>
+      <stop offset="1" stop-color="#d8a37c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d5"/>
+      <stop offset="0.65" stop-color="#ffd987"/>
+      <stop offset="1" stop-color="#ffd987" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+
+  <circle cx="760" cy="300" r="260" fill="url(#sun)" opacity=".8"/>
+  <circle cx="760" cy="300" r="96" fill="#fff2c9" opacity=".9"/>
+
+  <g opacity=".22" fill="#6c3a34">
+    <path d="M-40 420c240 0 400 120 500 300s200 300 520 330v-80c-280-30-420-160-510-320S320 320-40 320Z"/>
+    <path d="M-40 520c200 0 340 110 430 270s190 280 460 310v-60c-250-30-370-140-460-300S300 410-40 410Z"/>
+  </g>
+
+  <g transform="translate(540 760)">
+    <path d="M-330 330V-40c0-182 148-330 330-330S330-222 330-40v370h-160V-40c0-94-76-170-170-170S-170-134-170-40v370Z" fill="url(#arch1)"/>
+    <path d="M-240 330V-50c0-132 108-240 240-240S240-182 240-50v380h-90V-50c0-83-67-150-150-150S-150-133-150-50v380Z" fill="url(#arch2)"/>
+    <path d="M-150 330V-56c0-83 67-150 150-150S150-139 150-56v386h-62V-56c0-49-39-88-88-88S-88-105-88-56v386Z" fill="url(#arch3)"/>
+    <path d="M-62 330V-60c0-34 28-62 62-62s62 28 62 62v390Z" fill="#f9e6c8"/>
+    <path d="M-40 330V-58c0-22 18-40 40-40s40 18 40 40v388Z" fill="#b36550" opacity=".55"/>
+  </g>
+
+  <g fill="#4a2229" opacity=".9">
+    <path d="M0 1350V980c0-140 90-250 210-286-46 82-54 170-24 250 24 64 20 130-14 192-18 34-28 72-26 112Z"/>
+    <path d="M1080 1350V940c0-130-84-236-196-272 42 78 50 162 22 238-22 60-18 122 14 180 16 32 26 68 24 104Z"/>
+  </g>
+
+  <g transform="translate(150 220)" fill="#5b2b2c" opacity=".8">
+    <path d="M0 0c68 18 118 64 150 138-82-26-146-72-196-138Z"/>
+    <path d="M-30 62c52 12 92 48 118 108-64-20-114-56-154-108Z"/>
+    <path d="M20 130c40 8 72 34 94 78-48-14-88-40-120-78Z"/>
+  </g>
+
+  <g stroke="#5b2b2c" stroke-width="3" opacity=".3">
+    <path d="M0 1120h1080M0 1170h1080M0 1220h1080M0 1270h1080M0 1320h1080"/>
+  </g>
+
+  <g fill="#fff" opacity=".14">
+    <circle cx="250" cy="430" r="3"/>
+    <circle cx="930" cy="500" r="4"/>
+    <circle cx="820" cy="880" r="3"/>
+    <circle cx="360" cy="1140" r="3"/>
+  </g>
+</svg>

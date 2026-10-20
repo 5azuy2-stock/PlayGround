@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07122e"/>
+      <stop offset="0.42" stop-color="#1e3b5e"/>
+      <stop offset="0.72" stop-color="#6d6a7d"/>
+      <stop offset="1" stop-color="#e0a184"/>
+    </linearGradient>
+    <linearGradient id="far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9eb2c6"/>
+      <stop offset="1" stop-color="#5f7089"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e8099"/>
+      <stop offset="1" stop-color="#33415a"/>
+    </linearGradient>
+    <linearGradient id="near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3549"/>
+      <stop offset="1" stop-color="#101828"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b708c"/>
+      <stop offset="0.5" stop-color="#25344b"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cfdbe8"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffdf1"/>
+      <stop offset="0.55" stop-color="#f7e9c6"/>
+      <stop offset="1" stop-color="#f7e9c6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#sky)"/>
+  <g fill="#fff">
+    <circle cx="140" cy="140" r="2" opacity=".6"/>
+    <circle cx="280" cy="88" r="1.5" opacity=".4"/>
+    <circle cx="402" cy="182" r="2.2" opacity=".55"/>
+    <circle cx="560" cy="110" r="1.6" opacity=".4"/>
+    <circle cx="712" cy="212" r="1.9" opacity=".5"/>
+    <circle cx="884" cy="134" r="2.3" opacity=".6"/>
+    <circle cx="996" cy="242" r="1.5" opacity=".4"/>
+    <circle cx="196" cy="300" r="1.8" opacity=".45"/>
+    <circle cx="780" cy="330" r="1.5" opacity=".35"/>
+  </g>
+  <circle cx="820" cy="250" r="150" fill="url(#moon)" opacity=".8"/>
+  <circle cx="820" cy="250" r="54" fill="#fff8e2"/>
+
+  <path d="M0 742 190 522l96 104 126-176 164 202 104-96 152 190 120-132 128 138v288H0Z" fill="url(#far)" opacity=".9"/>
+  <path d="m190 522 42 48-24 3 32 43 30-31 16 45-42 12-34-24-38 28Z" fill="url(#snow)" opacity=".85"/>
+  <path d="m412 450 46 62-30-4 22 34 40-40 18 56-54 14-34-30-40 36Z" fill="url(#snow)" opacity=".8"/>
+  <path d="m792 552 38 48-28-2 30 40-40 20-32-36-38 18Z" fill="url(#snow)" opacity=".7"/>
+
+  <path d="M0 880c150-38 280-16 412 34 130 50 262 46 392-8 108-44 196-52 276-24v226H0Z" fill="#9fb0c4" opacity=".18"/>
+  <rect y="852" width="1080" height="70" fill="#d8e2ee" opacity=".12"/>
+
+  <path d="M0 922c136-54 268-44 398 6 124 48 248 30 368-26 110-50 212-62 314-32v532H0Z" fill="url(#mid)"/>
+  <path d="M0 1030 128 906l86 84 104-112 118 130 92-92 150 140 106-108 140 116 156-134v420H0Z" fill="url(#near)"/>
+
+  <rect y="1170" width="1080" height="180" fill="url(#lake)"/>
+  <g stroke="#aebfd4" stroke-linecap="round" opacity=".4">
+    <path d="M90 1210h300M470 1240h340M160 1274h240M640 1296h280" stroke-width="3"/>
+  </g>
+  <path d="M820 1170c-30 40-44 90-40 150h80c6-62-6-112-40-150Z" fill="#fff4d6" opacity=".16"/>
+
+  <g fill="#0a111d">
+    <path d="m140 1108 30-96 30 96Z"/>
+    <path d="m186 1124 22-70 22 70Z"/>
+    <path d="m92 1132 20-64 20 64Z"/>
+    <path d="m890 1130 26-84 26 84Z"/>
+    <path d="m946 1148 20-64 20 64Z"/>
+  </g>
+</svg>

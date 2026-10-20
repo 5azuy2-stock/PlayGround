@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#160f33"/>
+      <stop offset="0.38" stop-color="#552a66"/>
+      <stop offset="0.64" stop-color="#b14568"/>
+      <stop offset="0.82" stop-color="#f27a5e"/>
+      <stop offset="1" stop-color="#ffc873"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d9"/>
+      <stop offset="0.38" stop-color="#ffdb8a"/>
+      <stop offset="0.72" stop-color="#ff9a5c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff7a4e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="duneFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3566d"/>
+      <stop offset="1" stop-color="#7c355a"/>
+    </linearGradient>
+    <linearGradient id="duneMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d3355"/>
+      <stop offset="1" stop-color="#4a1f42"/>
+    </linearGradient>
+    <linearGradient id="duneNear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c1431"/>
+      <stop offset="1" stop-color="#150c22"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffcf95" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffd9a3" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffcf95" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#sky)"/>
+
+  <g fill="#fff">
+    <circle cx="130" cy="128" r="2.4" opacity=".7"/>
+    <circle cx="246" cy="72" r="1.6" opacity=".5"/>
+    <circle cx="362" cy="164" r="2" opacity=".65"/>
+    <circle cx="498" cy="96" r="1.5" opacity=".45"/>
+    <circle cx="614" cy="188" r="2.3" opacity=".6"/>
+    <circle cx="792" cy="104" r="1.7" opacity=".5"/>
+    <circle cx="912" cy="176" r="2.2" opacity=".7"/>
+    <circle cx="1002" cy="86" r="1.4" opacity=".4"/>
+    <circle cx="694" cy="54" r="1.8" opacity=".55"/>
+    <circle cx="188" cy="238" r="1.5" opacity=".4"/>
+    <circle cx="878" cy="264" r="1.8" opacity=".45"/>
+    <circle cx="440" cy="252" r="1.6" opacity=".4"/>
+  </g>
+
+  <circle cx="700" cy="590" r="300" fill="url(#sun)"/>
+  <circle cx="700" cy="590" r="106" fill="#ffe3a1" opacity=".95"/>
+
+  <g fill="none" stroke="#2a1636" stroke-width="6" stroke-linecap="round" opacity=".75">
+    <path d="M214 330c18-14 36-14 54 0"/>
+    <path d="M278 296c14-10 28-10 42 0"/>
+  </g>
+
+  <path d="M-80 760C120 660 250 712 404 760c122 38 240 22 360-10 130-34 260-30 396 34v198H-80Z" fill="url(#duneFar)"/>
+  <path d="M-80 848c170-58 300-4 432 40 118 40 238 30 368-16 132-46 246-32 360 18v166H-80Z" fill="url(#duneMid)"/>
+  <path d="M-80 1020c176-40 300 64 454 90 152 26 284-46 418-74 116-24 216-8 288 26v288H-80Z" fill="url(#duneNear)"/>
+
+  <path d="M-80 1018c176-38 302 66 456 92 152 26 282-48 416-76 116-24 216-8 288 26" fill="none" stroke="url(#ridge)" stroke-width="8"/>
+
+  <g fill="#160c20">
+    <path d="M782 1002c6-26 8-50 6-74 14 16 24 34 30 56 8-28 8-54 4-78 22 20 34 46 36 78 12-20 26-32 42-38-10 26-14 52-12 78l-10 4c-4-18-12-26-24-24-4 18-12 30-24 36-16-32-34-52-54-60-2 14 0 28 6 42Z"/>
+    <circle cx="814" cy="974" r="12"/>
+  </g>
+  <path d="M790 1030c40 12 72 12 96 0" fill="none" stroke="#ffbd82" stroke-width="3" opacity=".35"/>
+
+  <g opacity=".16" fill="#fff">
+    <path d="M0 1190c220-18 420-16 600 6s360 28 540 18v36c-180 10-360 8-540-14s-380-24-600-6Z"/>
+  </g>
+</svg>

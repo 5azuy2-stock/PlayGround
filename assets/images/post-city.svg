@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1350">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050b1c"/>
+      <stop offset="0.45" stop-color="#0e1938"/>
+      <stop offset="0.72" stop-color="#2a2a56"/>
+      <stop offset="1" stop-color="#6b3f63"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#182347"/>
+      <stop offset="1" stop-color="#050711"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fffbe8"/>
+      <stop offset="0.55" stop-color="#ffeec2"/>
+      <stop offset="1" stop-color="#ffeec2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2440"/>
+      <stop offset="1" stop-color="#0c1124"/>
+    </linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f52"/>
+      <stop offset="1" stop-color="#121631"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="1350" fill="url(#sky)"/>
+  <g fill="#fff">
+    <circle cx="160" cy="150" r="2" opacity=".6"/>
+    <circle cx="320" cy="96" r="1.6" opacity=".45"/>
+    <circle cx="460" cy="210" r="1.8" opacity=".5"/>
+    <circle cx="620" cy="120" r="2.2" opacity=".6"/>
+    <circle cx="1010" cy="160" r="1.5" opacity=".4"/>
+    <circle cx="240" cy="300" r="1.5" opacity=".4"/>
+    <circle cx="880" cy="320" r="1.8" opacity=".45"/>
+  </g>
+  <circle cx="810" cy="260" r="190" fill="url(#moon)" opacity=".7"/>
+  <circle cx="810" cy="260" r="62" fill="#fff7dd"/>
+
+  <g fill="#111a33" opacity=".7">
+    <rect x="60" y="600" width="120" height="280" rx="8"/>
+    <rect x="210" y="520" width="90" height="360" rx="8"/>
+    <rect x="930" y="560" width="100" height="320" rx="8"/>
+  </g>
+
+  <g>
+    <rect x="90" y="700" width="160" height="300" rx="10" fill="url(#b1)"/>
+    <rect x="280" y="620" width="120" height="380" rx="10" fill="url(#b2)"/>
+    <rect x="430" y="740" width="150" height="260" rx="10" fill="url(#b1)"/>
+    <rect x="610" y="560" width="130" height="440" rx="10" fill="url(#b2)"/>
+    <rect x="770" y="680" width="110" height="320" rx="10" fill="url(#b1)"/>
+    <rect x="910" y="620" width="150" height="380" rx="10" fill="url(#b2)"/>
+  </g>
+
+  <path d="M676 560v-90l10-90 10 90v90Z" fill="#2a2f52"/>
+  <circle cx="686" cy="372" r="6" fill="#ff4d6d"/>
+
+  <g fill="#ffd27a">
+    <g opacity=".85">
+      <rect x="112" y="724" width="20" height="26" rx="3"/><rect x="152" y="724" width="20" height="26" rx="3"/><rect x="192" y="724" width="20" height="26" rx="3"/>
+      <rect x="112" y="776" width="20" height="26" rx="3"/><rect x="192" y="776" width="20" height="26" rx="3"/>
+      <rect x="152" y="828" width="20" height="26" rx="3"/><rect x="112" y="880" width="20" height="26" rx="3"/><rect x="192" y="880" width="20" height="26" rx="3"/>
+    </g>
+    <g opacity=".55">
+      <rect x="302" y="650" width="18" height="24" rx="3"/><rect x="342" y="650" width="18" height="24" rx="3"/>
+      <rect x="302" y="704" width="18" height="24" rx="3"/><rect x="342" y="704" width="18" height="24" rx="3"/>
+      <rect x="302" y="812" width="18" height="24" rx="3"/><rect x="342" y="812" width="18" height="24" rx="3"/>
+      <rect x="302" y="866" width="18" height="24" rx="3"/>
+    </g>
+    <g opacity=".8">
+      <rect x="454" y="770" width="20" height="24" rx="3"/><rect x="494" y="770" width="20" height="24" rx="3"/><rect x="534" y="770" width="20" height="24" rx="3"/>
+      <rect x="454" y="822" width="20" height="24" rx="3"/><rect x="534" y="822" width="20" height="24" rx="3"/>
+      <rect x="494" y="874" width="20" height="24" rx="3"/><rect x="454" y="926" width="20" height="24" rx="3"/>
+    </g>
+    <g opacity=".7">
+      <rect x="634" y="600" width="20" height="26" rx="3"/><rect x="674" y="600" width="20" height="26" rx="3"/>
+      <rect x="714" y="600" width="20" height="26" rx="3"/><rect x="634" y="656" width="20" height="26" rx="3"/>
+      <rect x="714" y="656" width="20" height="26" rx="3"/><rect x="674" y="712" width="20" height="26" rx="3"/>
+      <rect x="634" y="768" width="20" height="26" rx="3"/><rect x="714" y="768" width="20" height="26" rx="3"/>
+      <rect x="674" y="880" width="20" height="26" rx="3"/>
+    </g>
+    <g opacity=".6">
+      <rect x="792" y="710" width="18" height="24" rx="3"/><rect x="832" y="710" width="18" height="24" rx="3"/>
+      <rect x="792" y="764" width="18" height="24" rx="3"/><rect x="832" y="818" width="18" height="24" rx="3"/>
+      <rect x="792" y="872" width="18" height="24" rx="3"/>
+    </g>
+    <g opacity=".75">
+      <rect x="936" y="660" width="20" height="24" rx="3"/><rect x="976" y="660" width="20" height="24" rx="3"/><rect x="1016" y="660" width="20" height="24" rx="3"/>
+      <rect x="936" y="714" width="20" height="24" rx="3"/><rect x="1016" y="714" width="20" height="24" rx="3"/>
+      <rect x="976" y="768" width="20" height="24" rx="3"/><rect x="936" y="822" width="20" height="24" rx="3"/>
+    </g>
+  </g>
+
+  <rect y="1000" width="1080" height="350" fill="url(#water)"/>
+  <rect y="1000" width="1080" height="6" fill="#8d6a9e" opacity=".4"/>
+  <g filter="url(#blur)" opacity=".28">
+    <rect x="90" y="1010" width="160" height="120" fill="#ffd27a"/>
+    <rect x="610" y="1010" width="130" height="150" fill="#ffd27a"/>
+    <rect x="910" y="1010" width="150" height="110" fill="#ffd27a"/>
+  </g>
+  <g stroke="#ffd27a" stroke-linecap="round" opacity=".5">
+    <path d="M130 1040h90M660 1060h70M950 1030h80" stroke-width="4"/>
+    <path d="M170 1090h70M680 1120h80M930 1080h60" stroke-width="3"/>
+    <path d="M120 1150h110M650 1180h90M960 1140h70" stroke-width="2.5"/>
+  </g>
+  <path d="M790 1010c-20 40-26 80-20 120h70c4-46-10-86-50-120Z" fill="#fff3cf" opacity=".14"/>
+</svg>
